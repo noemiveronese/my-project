@@ -24,6 +24,7 @@ self-contained: true
 # Presentation
 
 Questo è il mio sito!
+![This is my image!](img/mountain.jpg)
 
 ## Sub presentation
 
