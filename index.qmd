@@ -18,30 +18,58 @@ format:
       light: minty
       dark: superhero
 self-contained: true
-
+lang: it
+bibliography: biblio.bib
+reference-location: margin
+citation-location: margin
 ---
 
 # Presentation
 
-Questo è il mio sito!
-![This is my image!](img/mountain.jpg)
+Questo è il mio sito! ![This is my image!](img/mountain.jpg){#fig-mountain}
 
 ## Sub presentation
 
-Sub secion
+Inline equation $X= V + E$
+
+$$z = \dfrac{z -
+\mu}{\sigma}$$ {#eq-myequation}
+
+::: column-margin
+$$X = V + E$$ {#eq-ctt}
+:::
+
+@eq-ctt this is an equation
 
 ### Sub sub section
 
-Another subu
+Let's see how to cross reference equations
+
+In @eq-myequation, we wrote down an equation that we are now cross-referencing
 
 #### My paragraph
 
+This is my bibliography @ggplot
+
+:::::: grid
+::: g-col-4
+This is my first column
+:::
+
+::: g-col-4
+This is my second column
+:::
+
+::: g-col-4
+This is my third column
+:::
+::::::
 
 ```{r}
 1 + 1
 ```
 
-You can add options to executable code like this 
+You can add options to executable code like this
 
 ```{r}
 #| echo: false
