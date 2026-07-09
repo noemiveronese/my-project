@@ -1,15 +1,40 @@
 ---
 title: "SummerSchoolProj"
-format: html
+author: "Noemi Veronese"
+affiliation: "Università degli Studi di Padova"
+date: today
+format: 
+  html:
+    toc: true
+    toc-title: Contenuti
+    toc-location: left
+    number-sections: true
+    grid: 
+      sidebar-width: 200px
+      body-width: 900px
+      margin-width: 400px
+      gutter-width: 1.5rem
+    theme: 
+      light: minty
+      dark: superhero
+self-contained: true
+
 ---
 
-## Quarto
+# Presentation
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+Questo è il mio sito!
 
-## Running Code
+## Sub presentation
 
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+Sub secion
+
+### Sub sub section
+
+Another subu
+
+#### My paragraph
+
 
 ```{r}
 1 + 1
